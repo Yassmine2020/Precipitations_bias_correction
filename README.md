@@ -55,8 +55,16 @@ PS: For more details, please refer to the code and the generated graphs and diag
 ## Key Findings
 
 - The eQM method with a correction coefficient performed better than the standard eQM, providing more homogeneous RMSE values.
-- LightGBM showed the best correction compared to other methods, displaying a non-homogeneous correction over time, with RMSE values varying between 10 and 30.
-- Processing time for ML methods was significantly longer compared to eQM methods.
+- 
+**Here is the different RMSE heatmap of eQm with vs without coef**
+
+  ![eqm sanscoef](https://github.com/user-attachments/assets/d92abad3-250e-43b1-8387-aa4de35c0bef)
+
+  ![eqm aveccoef](https://github.com/user-attachments/assets/24148aee-b4eb-4f90-b37b-b6403a7325d6)
+  
+- LightGBM showed the best correction compared to other ML methods, displaying a non-homogeneous correction over time.
+
+  ![newplot](https://github.com/user-attachments/assets/99513c2d-56ff-42ae-be0d-054d9792e910)
 
 ## Repository Structure
 
